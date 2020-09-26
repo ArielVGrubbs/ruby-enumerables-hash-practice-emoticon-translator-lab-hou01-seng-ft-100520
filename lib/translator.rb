@@ -25,7 +25,7 @@ end
 def get_english_meaning (file_path, emote)
   # code goes here
   load_library (file_path)
-  emote_lib.include? emote do |key, value|
+  #emote_lib.include? emote do |key, value|
     english_emote = emote_lib[key][:english]
   end
 end
